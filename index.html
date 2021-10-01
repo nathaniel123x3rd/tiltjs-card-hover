@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Tilt</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image1.jpg" alt="image">
+                </div>
+                <div class="contentBx">
+                    <h2>Nathaniel</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque 
+                        consequatur eaque eos rem labore, corporis ad iusto quibusdam 
+                        natus animi architecto, quo qui
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image2.jpg" alt="image">
+                </div>
+                <div class="contentBx">
+                    <h2>Nathaniel</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque 
+                        consequatur eaque eos rem labore, corporis ad iusto quibusdam 
+                        natus animi architecto, quo qui
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+       VanillaTilt.init(document.querySelectorAll(".box"),
+       {
+           max: 25,
+           speed: 400
+       });
+    </script>
+    </body>
+</html>
